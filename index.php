@@ -53,13 +53,14 @@ a {
 }
 
 .browse {
-    margin: -60%;
+    margin: 0 0 16px;
     font-size: 15px;
     text-align: center;
 }
 
 .build {
-    margin-bottom: -4%;
+    margin: 0;
+    line-height: 1.15;
 }
 
 button {
@@ -151,11 +152,11 @@ select, .radio {
     <table style="background-image: url('foto/background-builder.png'); background-size: cover;" class="builder">
         <tr>
             <td>
-                <h1 class="build">Welkom bij: Build Your Pc!</h1>
+                <p class="browse">Browse door de webshop en krijg hulp met de compatibiliteit van je pc.</p>
             </td>
         </tr>
         <tr>
-          <td><p class="browse">Browse door de webshop en krijg hulp met de compatibiliteit van je pc.</p></td>
+          <td><h1 class="build">Welkom bij: Build Your Pc!</h1></td>
         </tr>
         <tr>
            <td style="padding-top: 20px;"><form action="onderdelen.php?part=cpu" method="POST"><button id="builder" type="submit" name="builder">Start met browsen!</button></form></td>
